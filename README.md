@@ -20,3 +20,12 @@ it online in case others find it helpful!_
      src="https://cloud.githubusercontent.com/assets/40650/25104962/8e8b8f8c-2390-11e7-8352-95e82c638e93.png"
      width="597"
      height="271" />
+
+## Usage
+`consider` will check the current directory (respecting `.gitignore`), or you
+can pass a list of files or directories to be checked.
+
+## Installation
+Clone this repository and run `make install`.
+
+Alternately, via HomeBrew on macOS via `brew install mroth/formulas/consider`. :beer:
