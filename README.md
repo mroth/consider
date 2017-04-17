@@ -15,3 +15,8 @@ in the universe for searching large codebases.
 
 _This is really just a quick shell script for my own personal use, but putting
 it online in case others find it helpful!_
+
+<img alt="screenshot"
+     src="https://cloud.githubusercontent.com/assets/40650/25104962/8e8b8f8c-2390-11e7-8352-95e82c638e93.png"
+     width="597"
+     height="271" />
