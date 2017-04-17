@@ -4,11 +4,11 @@
 Quickly check source code for common racist/sexist/ableist terms, that one might
 be being used without realizing it.
 
-Doesn't check for blatant stuff, because if you are using that, you have bigger
-problems. Instead just the sort of things that might unwillingly slip into
-source code comments of otherwise reasonably aware developers.
+Doesn't check for blatant racist stuff, because if you are using that, you have
+bigger problems. Instead just the sort of things that might unwittingly slip
+into source code comments of otherwise reasonably aware developers.
 
-Relies on ripgrep[1] to be installed, since it is WAY faster than anything else
+Relies on [ripgrep][1] to be installed, since it is WAY faster than anything else
 in the universe for searching large codebases.
 
 [1]: https://github.com/BurntSushi/ripgrep
