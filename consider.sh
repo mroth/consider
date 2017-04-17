@@ -64,4 +64,6 @@ if [ $? -eq 0 ]; then
     echo "$(tput bold)Possible poor word choices (see above), review with the following in mind:$(tput sgr0)"
     print $SUGGESTIONS
     exit 1
+else
+    exit 0
 fi
