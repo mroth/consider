@@ -30,6 +30,8 @@ WORDS=(
     maniac
     psycho
     retard
+    sane
+    sanity
     spaz
     stupid
 )
@@ -39,7 +41,8 @@ Here are some substitutions I personally like to consider in the context of
 code (note these are a bit different than oft-suggested substitutions, since
 the context the words are used in code comments is typically a bit different.)
 
-  [crazy, insane, loony...]   -> "wacky", "unexpected"
+  [crazy, insane, loony...]   -> "wacky", "unexpected", "incomprehensible"
+  [sane, sanity check...]     -> "reasonable", "coherent", "clarity check"
   [dumb, stupid, retarded...] -> "poorly written"
   [ghetto]                    -> "hacky"
 EOF
