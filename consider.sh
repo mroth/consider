@@ -31,6 +31,7 @@ WORDS=(
     retard
     sane
     sanity
+    slave
     spaz
     stupid
 )
@@ -43,7 +44,8 @@ the context the words are used in code comments is typically a bit different.)
   [crazy, insane, loony...]   -> "wacky", "unexpected", "incomprehensible"
   [sane, sanity check...]     -> "reasonable", "coherent", "clarity check"
   [dumb, stupid, retarded...] -> "poorly written"
-  [ghetto]                    -> "hacky"
+  [master/slave...]           -> "primary/replica", "master/minion"
+  [ghetto...]                 -> "hacky"
 EOF
 )
 
