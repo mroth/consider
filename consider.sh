@@ -17,6 +17,8 @@
 # [1]: https://github.com/BurntSushi/ripgrep
 
 WORDS=(
+    blacklist
+    black-list
     crazy
     dumb
     lame
@@ -34,6 +36,8 @@ WORDS=(
     slave
     spaz
     stupid
+    whitelist
+    white-list
 )
 
 SUGGESTIONS=$(cat <<EOF
@@ -45,6 +49,7 @@ the context the words are used in code comments is typically a bit different.)
   [sane, sanity check...]     -> "reasonable", "coherent", "clarity check"
   [dumb, stupid, retarded...] -> "poorly written"
   [master/slave...]           -> "primary/replica", "master/minion"
+  [blacklist/whitelist...]    -> "blocklist/allowlist", "denylist/passlist"
   [ghetto...]                 -> "hacky"
 EOF
 )
